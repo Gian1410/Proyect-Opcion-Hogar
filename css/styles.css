@@ -91,11 +91,29 @@ section{
 
 
 /* propiedades grid */
+
+.tarjetas{
+    margin-top: 50px;
+}
+
 .propiedades h1{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
     color: white;
+}
+
+.badge{
+    background-color: #F25C05;
+    position: absolute;
+    margin: 20px;
+    display: block;
+}
+
+.button-propiedades{
+    text-align: center;
+    align-items: center;
+    margin: 30px;
 }
 
 .video-bg {
@@ -108,12 +126,7 @@ section{
     z-index: -1;
 }
 
-.badge{
-    background-color: #F25C05;
-    position: absolute;
-    margin: 20px;
-    display: block;
-}
+
 
 
 
@@ -272,9 +285,16 @@ section{
 }
 
 /* footer */
+
+footer{
+    margin-top: 50px ;
+}
 .pie-pagina{
-    width: 100%;
-    background-color: #707070;
+    width: 100%;;
+}
+
+.pie-pagina img{
+    width: 60%;
 }
 
 .pie-pagina .grupo-1{
@@ -283,7 +303,27 @@ section{
     margin: auto;
 }
 
+.box h2{
+    color: #F25C05;
+}
+
+.box p {
+    color: white;
+}
+
+.pie-pagina .grupo-2{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.red-social a{
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+}
 
 ::-webkit-scrollbar{
     display: none;
 }
+
