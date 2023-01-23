@@ -23,6 +23,7 @@
         <!-- FONTS -->
         </head>
     <body>
+        <header>
 
         <div class="inicio">
             <nav class="navbar navbar-expand-md navbar-light">
@@ -73,11 +74,37 @@
             <video class="video-bg" autoplay muted loop>
                 <source src="src/Video/peru.mp4">
             </video>
-            <div class="container">
-                <form class="" role="search" >
+
+
+            <div class="form container-md">
+                <form class="search-proyectos" role="search" >
+                    <i class="bi bi-search"></i>
                     <input type="text" placeholder="Nombre de la Ciudad">
-                    <button type="submit">Search</button>
+
+                    <label for="category" class="category-option"></label>
+
+                    <select id="category">
+                        <option>Categorias</option>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select>
+
+                    <label for="type" class="type-option"></label>
+
+                    <select id="type">
+                        <option>Tipo</option>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="opel">Opel</option>
+                        <option value="audi">Audi</option>
+                    </select>
+
+                    <button type="submit">Buscar</button>
                 </form>
+
+                
                 
                 </div>
             </div>
@@ -94,15 +121,20 @@
                     <h1>Proyectos Futuros</h1>
                     <div class="tarjetas col-12 col-md-6 col-lg-3">
                         <div class="card" style="width: 18rem;">
-                            <span class="badge">Oferta</span>
+                            <p class="badge">Oferta</p>
+                            <p class="badge nuevo">Nuevo</p>                            
                             <img src="src/img/depa1.jpg" class="card-img-top" alt="propiedad1">
+
                             <div class="card-body">
-                                <h5 class="card-title">Propiedad1</h5>
-                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
-                                <div class="info-propiedad">
-                                    <p class="bi bi-arrows-fullscreen">120 m2</p>
-                                    <a href="#" class="btn btn-primary">Mas informacion</a>
+                                <div class="icons">
+                                    <span class="bi bi-arrows-fullscreen">120 m2</span>
+                                    <a class="bi bi-camera" href="#"> 4</a>
                                 </div>
+                                <h5 class="card-title">Propiedad1</h5>
+                                
+                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
+                                <a href="#" class="btn btn-primary">Mas informacion</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -110,105 +142,141 @@
 
                     <div class="tarjetas col-12 col-md-6 col-lg-3">
                         <div class="card" style="width: 18rem;">
-                            <span class="badge">Oferta</span>
+                            <p class="badge">Oferta</p>
+                            <p class="badge nuevo">Nuevo</p>                            
                             <img src="src/img/depa1.jpg" class="card-img-top" alt="propiedad1">
                             <div class="card-body">
-                                <h5 class="card-title">Propiedad1</h5>
-                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
-                                <div class="info-propiedad">
-                                    <p class="bi bi-arrows-fullscreen">120 m2</p>
-                                    <a href="#" class="btn btn-primary">Mas informacion</a>
+                                <div class="icons">
+                                    <span class="bi bi-arrows-fullscreen">120 m2</span>
+                                    <a class="bi bi-camera" href="#"> 4</a>
                                 </div>
+
+                                <h5 class="card-title">Propiedad1</h5>
+                                
+                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
+                                <a href="#" class="btn btn-primary">Mas informacion</a>
+                                
                             </div>
                         </div>
                     </div>
 
                     <div class="tarjetas col-12 col-md-6 col-lg-3">
                         <div class="card" style="width: 18rem;">
-                            <span class="badge">Oferta</span>
+                            <p class="badge">Oferta</p>
+                            <p class="badge nuevo">Nuevo</p>
+
                             <img src="src/img/depa1.jpg" class="card-img-top" alt="propiedad1">
                             <div class="card-body">
-                                <h5 class="card-title">Propiedad1</h5>
-                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
-                                <div class="info-propiedad">
-                                    <p class="bi bi-arrows-fullscreen">120 m2</p>
-                                    <a href="#" class="btn btn-primary">Mas informacion</a>
+                                <div class="icons">
+                                    <span class="bi bi-arrows-fullscreen">120 m2</span>
+                                    <a class="bi bi-camera" href="#"> 4</a>
                                 </div>
+                                <h5 class="card-title">Propiedad1</h5>
+                                
+                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
+                                <a href="#" class="btn btn-primary">Mas informacion</a>
+                                
                             </div>
                         </div>
                     </div>
 
                     <div class="tarjetas col-12 col-md-6 col-lg-3">
                         <div class="card" style="width: 18rem;">
-                            <span class="badge">Oferta</span>
+                            <p class="badge">Oferta</p>
+                            <p class="badge nuevo">Nuevo</p>                            
                             <img src="src/img/depa1.jpg" class="card-img-top" alt="propiedad1">
                             <div class="card-body">
-                                <h5 class="card-title">Propiedad1</h5>
-                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
-                                <div class="info-propiedad">
-                                    <p class="bi bi-arrows-fullscreen">120 m2</p>
-                                    <a href="#" class="btn btn-primary">Mas informacion</a>
+                                <div class="icons">
+                                    <span class="bi bi-arrows-fullscreen">120 m2</span>
+                                    <a class="bi bi-camera" href="#"> 4</a>
                                 </div>
+
+                                <h5 class="card-title">Propiedad1</h5>
+                                
+                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
+                                <a href="#" class="btn btn-primary">Mas informacion</a>
+                                
                             </div>
                         </div>
                     </div>
 
                     <div class="tarjetas col-12 col-md-6 col-lg-3">
                         <div class="card" style="width: 18rem;">
-                            <span class="badge">Oferta</span>
+                            <p class="badge">Oferta</p>
+                            <p class="badge nuevo">Nuevo</p>                            
                             <img src="src/img/depa1.jpg" class="card-img-top" alt="propiedad1">
                             <div class="card-body">
-                                <h5 class="card-title">Propiedad1</h5>
-                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
-                                <div class="info-propiedad">
-                                    <p class="bi bi-arrows-fullscreen">120 m2</p>
-                                    <a href="#" class="btn btn-primary">Mas informacion</a>
+                                <div class="icons">
+                                    <span class="bi bi-arrows-fullscreen">120 m2</span>
+                                    <a class="bi bi-camera" href="#"> 4</a>
                                 </div>
+
+                                <h5 class="card-title">Propiedad1</h5>
+                                
+                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
+                                <a href="#" class="btn btn-primary">Mas informacion</a>
+                                
                             </div>
                         </div>
                     </div>
 
                     <div class="tarjetas col-12 col-md-6 col-lg-3">
                         <div class="card" style="width: 18rem;">
-                            <span class="badge">Oferta</span>
+                            <p class="badge">Oferta</p>
+                            <p class="badge nuevo">Nuevo</p>                            
                             <img src="src/img/depa1.jpg" class="card-img-top" alt="propiedad1">
                             <div class="card-body">
-                                <h5 class="card-title">Propiedad1</h5>
-                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
-                                <div class="info-propiedad">
-                                    <p class="bi bi-arrows-fullscreen">120 m2</p>
-                                    <a href="#" class="btn btn-primary">Mas informacion</a>
+                                <div class="icons">
+                                    <span class="bi bi-arrows-fullscreen">120 m2</span>
+                                    <a class="bi bi-camera" href="#"> 4</a>
                                 </div>
+
+                                <h5 class="card-title">Propiedad1</h5>
+                                
+                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
+                                <a href="#" class="btn btn-primary">Mas informacion</a>
+                                
                             </div>
                         </div>
                     </div>
 
                     <div class="tarjetas col-12 col-md-6 col-lg-3">
                         <div class="card" style="width: 18rem;">
-                            <span class="badge">Oferta</span>
+                            <p class="badge">Oferta</p>
+                            <p class="badge nuevo">Nuevo</p>                            
                             <img src="src/img/depa1.jpg" class="card-img-top" alt="propiedad1">
                             <div class="card-body">
-                                <h5 class="card-title">Propiedad1</h5>
-                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
-                                <div class="info-propiedad">
-                                    <p class="bi bi-arrows-fullscreen">120 m2</p>
-                                    <a href="#" class="btn btn-primary">Mas informacion</a>
+                                <div class="icons">
+                                    <span class="bi bi-arrows-fullscreen">120 m2</span>
+                                    <a class="bi bi-camera" href="#"> 4</a>
                                 </div>
+
+                                <h5 class="card-title">Propiedad1</h5>
+                                
+                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
+                                <a href="#" class="btn btn-primary">Mas informacion</a>
+                                
                             </div>
                         </div>
                     </div>
 
                     <div class="tarjetas col-12 col-md-6 col-lg-3">
                         <div class="card" style="width: 18rem;">
-                            <span class="badge">Oferta</span>
-                            <img src="src/img/depa1.jpg" class="card-img-top" alt="propiedad1">
+                            
+                                <p class="badge">Oferta</p>
+                                <p class="badge nuevo">Nuevo</p>                            
+                                <img src="src/img/depa1.jpg" class="card-img-top" alt="propiedad1">
                             <div class="card-body">
-                                <h5 class="card-title">Propiedad1</h5>
-                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
-                                <div class="info-propiedad">
-                                    <p class="bi bi-arrows-fullscreen">120 m2</p>
-                                    <a href="#" class="btn btn-primary">Mas informacion</a>
+                                <div class="icons">
+                                    <span class="bi bi-arrows-fullscreen">120 m2</span>
+                                    <a class="bi bi-camera" href="#"> 4</a>
                                 </div>
+
+                                <h5 class="card-title">Propiedad1</h5>
+                                
+                                <p class="card-text">VENTA O ALQUILER DE DEPARTAMENTO DE ESTRENO CON BUENOS ACABADOS 140 MT2 4 DORMITORIOS <a href="#">...</a></p>
+                                <a href="#" class="btn btn-primary">Mas informacion</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -311,6 +379,25 @@
             <div class="swiper-button-prev swiper-navBtn"></div>
 
         </div>
+    </section>
+
+    <section class="home container-fluid" id="home">
+        <div class="home-text">
+            <h1>Departamentos</h1>
+            <button href="#" class="btn">Ver mas</button>
+            <!-- <video src="src/video/video.mp4" autoplay loop muted></video> -->
+        </div>
+    </section>
+
+
+    <section class="container-fluid">
+    <div class="images-cards">
+        <div class="row">
+            <img class="col-12 col-md-6 col-lg-4" src="src/img/depa3.jpg" alt="">
+            <img class="col-12 col-md-6 col-lg-4" src="src/img/card1.jpg" alt="">
+            <img class="col-12 col-md-6 col-lg-4" src="src/img/depa2.jpg" alt="">
+        </div>
+    </div>
     </section>
 
     <section>

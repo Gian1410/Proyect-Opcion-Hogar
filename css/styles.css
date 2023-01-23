@@ -21,6 +21,10 @@ section{
     padding: 3.5rem 0 3rem;
 }
 
+nav{
+    position: fixed;
+}
+
 .navbar{
     padding: 1rem;
     background-color: transparent;
@@ -111,11 +115,20 @@ section{
     font-size: 1.5rem;
 }
 
+.form-search{
+    align-items: center;
+    justify-content: center;
+}
+
 form{
     background-color: white;
     width: 600px;
     height: 55px;
     display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 }
 
 form input{
@@ -125,14 +138,34 @@ form input{
 }
 
 form button{
-    background-color: ;
-    padding: ;
+    background-color:#F25C05 ;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
 }
+
+select{
+    outline: none;
+    word-wrap: normal;
+    border: none;
+}
+
+form .bi-search{
+    align-self: center;
+    padding: 10px 20px;
+    color: #1e1c2a;
+}
+
 
 
 /* propiedades grid */
 
 .tarjetas{
+    margin-bottom: 50px;
 }
 
 .propiedades h1{
@@ -147,6 +180,41 @@ form button{
     position: absolute;
     margin: 20px;
     display: block;
+}
+
+/* background-color: #F25C05;
+    position: absolute;
+    margin: 20px;
+    align-self: end; */
+
+/*     color: #fff;
+    position: absolute;
+    bottom: 8px;
+    right: 20px;
+    z-index: 9;
+    opacity: 0.9; */
+
+.nuevo{
+    background-color: #F25C05;
+    position: absolute;
+    margin: 20px;
+    align-self: flex-end;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.icons a{
+    text-decoration: none;
+}
+
+.bi-camare{
+    color: #333;
+    width: 20px;
 }
 
 .button-propiedades{
@@ -308,6 +376,31 @@ form button{
 
 .swiper-button-prev{
     left: 0;
+}
+
+/* ventanas */
+
+.home{
+    
+    margin-top: 5rem;
+    background: url(/src/img/depa2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 410px;
+    display: flex;
+    align-items: center;
+
+}
+
+.home-text{
+    padding-left: 35px;
+    color: white;
+}
+
+.home button{
+    background-color: var(--second-color);
+    color: #ffff;
 }
 
 /* novedades */
