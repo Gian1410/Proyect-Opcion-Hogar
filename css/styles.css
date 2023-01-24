@@ -499,7 +499,32 @@ footer{
 }
 
 @media screen and (max-width: 767px) {
-    
+    .hero video{
+        width: 1100px;
+    }
+
+    .hero h1{
+        font-size: 50px;
+    }
+
+    .hero p{
+        font-size: 15px;
+    }
+
+    .hero form{
+        flex-direction: column;
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    form{
+        border-radius: 10px;
+
+    }
+
+    .nav-item a{
+        color: #fff;
+    }
     
     .novedades video{
         width: 100%;
