@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color: #1e1c2a;
+}
+
+
+
+nav{
+    position: fixed;
+}
+
+.navbar-collapse{
+    justify-content: space-between;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar a:hover{
+    color: #F25C05;
+}
+
+
+/* sslide */
+
+.cards-coments{
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-coments h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.slide-container{
+    max-width: 1520px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+}
+
+
+
+.image-content{
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+
+
+.card-image{
+    position: relative;
+    height: 800px;
+    width: 1000;
+    background: #fff;
+    padding: 3px;
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.swiper-navBtn{
+    color: #6e93f7;
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover{
+    color: #4070f4;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 40px;
+}
+
+.swiper-button-next{
+    right: 0;
+}
+
+.swiper-button-prev{
+    left: 0;
+}
+
+/* buscador */
+.form-search{
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: white;
+    width: 600px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+form button{
+    background-color:#F25C05 ;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+
+select{
+    outline: none;
+    word-wrap: normal;
+    border: none;
+}
+
+form .bi-search{
+    align-self: center;
+    padding: 10px 20px;
+    color: #1e1c2a;
+}
